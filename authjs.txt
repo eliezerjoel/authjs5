@@ -1,0 +1,8 @@
+.env
+ npx auth secret
+/auth.ts
+ exports handlers, auth, signIn, signOut, also has the providers
+api/auth/[...nextauth]/route.ts
+ export GET, POST from handlers
+/middleware.ts
+ export auth
